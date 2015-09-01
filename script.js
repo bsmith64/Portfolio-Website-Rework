@@ -80,61 +80,13 @@ $(document).ready(function() {
 	// LETS HIDE THOSE IMAGES...
 
 	$(window).load(function() {
-		$routes.hide();
-		$moto.hide();
-		$diablo.hide();
-		$beach.hide();
 
-		$afb_blur.hide();
-		$afb_sf.hide();
-		$bbdh.hide();
-		$bridge.hide();
-		$building.hide();
+		photos.forEach(function(photo, index) {
+			photo.hide();
+		});
 
-		$byron_bbdh.hide();
-		$bl_bw.hide();
-		$byron_blur.hide();
-		$byron_orinda.hide();
-		$cindercone.hide();
-
-		$dave_carve.hide();
-		$dave_daisy.hide();
-		$dave_loop.hide();
-		$deer.hide();
-		$ebbets.hide();
-
-		$flis_cradle.hide();
-		$flis_glasses.hide();
-		$fog_building.hide();
-		$jeff_bridge.hide();
-		$jeff_embarc.hide();
-
-		$jensen_fun.hide();
-		$jensen_gaps.hide();
-		$jensen_marina.hide();
-		$jensen_mountain.hide();
-		$jensen_speed.hide();
-
-		$lassen_stars.hide();
-		$liam_byron.hide();
-		$martino_ed.hide();
-		$mcway.hide();
-		$mirror.hide();
-
-		$oakland_layers.hide();
-		$radzani_coit.hide();
-		$radzani_pano.hide();
-		$ronzani_alley.hide();
-		$ronzani_beach.hide();
-
-		$sinjin_bbdh.hide();
-		$sonora.hide();
-		$sunrise.hide();
-		$sunset.hide();
-		$tissen_film.hide();
-
-		$tissen_log.hide();
-		$tissen_sonora.hide();
+		// SHOW THE FIRST ONE
+		photos[0].show();
 
 	});
 
