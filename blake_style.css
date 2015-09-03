@@ -1,0 +1,164 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #191919;
+}
+
+.navbar {
+	border-bottom: 1px solid #ebebeb;
+	background-color: #fff;
+}
+
+.icon-bar {
+	background-color: #191919;
+}
+
+a {
+	color: #191919;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #666666;
+	background-color: #fff;
+}
+
+
+.nav li a:hover {
+	color: #666666;
+	background-color: #fff;
+}
+
+#info {
+	float: right;
+	font-size: 12px;
+}
+
+.page-header {
+	font-size: 20px;
+}
+
+#photoBin {
+	position: relative;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+/* Start of photo hover stuff */
+
+.photoBtn {
+	font-size: 50px;
+	color: rgba(255,255,255,0.7);
+}
+
+.photoBtn:hover {
+	font-size: 50px;
+	color: rgba(255,255,255, 1);
+	cursor: pointer;
+}
+
+#photo_button_container {
+	position: absolute;
+	width: 97%;
+	height: auto;
+
+	left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#previous {
+	float: left;
+
+}
+
+#next {
+	float: right;
+
+}
+
+/* end photo hover stuff */
+/*
+#next {
+	font-size: 15px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#next:hover {
+	color: #666666;
+	cursor: pointer;
+}
+
+#previous {
+	font-size: 15px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#previous:hover {
+	color: #666666;
+	cursor: pointer;
+}
+
+*/
+
+/* HOME PAGE STYLE - - - - - - - - - - - - - - - - - - HOME PAGE STYLE - - - - - - - - - - - - - - - - - - - -  */
+
+#home_image {
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+
+/* VIDEO PAGE STYLE - - - - - - - - - - - - - - - - - VIDEO PAGE STYLE - - - - - - - - - - - - - - - - - - */
+
+/*
+#video_body {
+	background-color: #191919;
+	color: #fff;
+}
+*/
+
+/* WEB PAGE STYLE - - - - - - - - - - - - - - - - - - WEB PAGE STYLE - - - - - - - - - - - - - - - - - - - */
+
+#webapp {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
