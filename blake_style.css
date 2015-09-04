@@ -1,6 +1,8 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 	color: #191919;
+
+
 }
 
 .navbar {
@@ -39,15 +41,26 @@ a:hover {
 	font-size: 20px;
 }
 
-#photoBin {
+#parent_photo_container {
+
+	width: auto;
+	height: auto;
+
+	max-height: 800px;
+	width: auto;
+
 	position: relative;
+
 }
 
-
-img {
-	width: 100%;
+#photoBin {
+	
 	height: auto;
 }
+
+
+
+
 
 .img-center {
 	margin: 0 auto;
@@ -55,14 +68,46 @@ img {
 
 /* Start of photo hover stuff */
 
+
+#previous {
+
+	position: relative;
+	color: rgba(0,0,0,0.7);
+	float: right;
+	font-size: 3em;
+
+}
+
+#next {
+	color: rgba(0,0,0,0.7);
+	float: left;
+	font-size: 3em;
+
+	position: relative;
+	
+}
+
+#previous:hover {
+	color: #666666;
+	cursor: pointer;
+}
+
+#next:hover {
+	cursor: pointer;
+	color: #666666;
+}
+
+/* end photo hover stuff
+
+
 .photoBtn {
 	font-size: 50px;
-	color: rgba(255,255,255,0.7);
+	color: rgba(0,0,0,0.7);
 }
 
 .photoBtn:hover {
 	font-size: 50px;
-	color: rgba(255,255,255, 1);
+	color: rgba(0,0,0, 1);
 	cursor: pointer;
 }
 
@@ -78,17 +123,9 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#previous {
-	float: left;
+*/
 
-}
 
-#next {
-	float: right;
-
-}
-
-/* end photo hover stuff */
 /*
 #next {
 	font-size: 15px;
@@ -152,6 +189,25 @@ img {
 	list-style: none;
 }
 
+
+@media (min-width: 301px) and (max-width: 990px) {
+
+	#parent_photo_container {
+		width: 100%;
+		height: auto;
+	}
+
+	#previous {
+		float: left;
+		
+	}
+
+	#next {
+		float: right;
+		margin-top: 0;
+	}
+
+}
 
 
 

@@ -21,6 +21,10 @@
 <script src="script.js"></script>
 <link rel="stylesheet" type="text/css" href="blake_style.css">
 
+<link rel="stylesheet" type="text/css" href="./styles/photostyle.css">
+
+<!-- Meida -->
+
 </head>
 
 <body>
@@ -56,20 +60,25 @@
 			
 	<!-- <div class='page-header'>Blake Smith Photography </div> -->
 	
-<div class='container'>
+<div class='container-fluid' id='parent_photo_container'>
 	
 
 	<!-- <button class='btn' id='next'> Next Image </button> -->
 
 	<div class='row'>
 		<!-- <div class='col-md-1' id='previous'> PREV </div>	-->
+		<div class='col-md-1'></div>
 
-		<div class='col-md-12' id='photoBin'>
+		<div class='col-md-1'><span class="glyphicon glyphicon-menu-left" id='previous'></span></div>
 
+		<div class='col-md-8' id='photoBin'>
+
+		<!--
 		<div class='container' id='photo_button_container'>
 			<div class='photoBtn text-center' id='previous'><span class="glyphicon glyphicon-menu-left"></span></div>
 			<div class='photoBtn text-center' id='next'><span class="glyphicon glyphicon-menu-right"></div>
 		</div>
+		-->
 
 
 			<img src='./photos/routes.jpg' class='img-responsive img-center' id='routes'>
@@ -130,6 +139,9 @@
 			<img src='./photos/tissen_sonora.jpg' class='img-responsive img-center' id='tissen_sonora'>
 
 		</div>
+
+		<div class='col-md-1'><span class="glyphicon glyphicon-menu-right" id='next'></span></div>
+		<div class='col-md-1'></div>
 
 		<!-- <div class='col-md-1' id='next'> NEXT </div> -->
 
